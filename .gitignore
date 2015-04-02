@@ -1,3 +1,28 @@
+#滤除.icc和.BIN文件
+*.icc
+*.BIN
+*.icm
+
+#滤除编译过程文件
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.sdf
+*.sln
+*.v12.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.exp
+*.ipch
+
+#滤除.txt .jpg
+*.txt
+*.jpg
+
+
 # Compiled Object files
 *.slo
 *.lo
